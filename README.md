@@ -1,60 +1,73 @@
-# Python For R Users
+--
+Title: Python for R users
+Author: John Fay
+Date: Spring 2021
+---
 
-This repository contains Python versions generally following the R lessons for ENV 872.
-
-
-
-#### 03-CodingBasics 1 - An introduction to Python
-
-* Examine where Python code can be written and run
-  * IPython & Jupyter Notebooks
-  * Integrated Development Environments (IDEs): Spyder
-* Review the basic elements of Python code:
-  * Basic Python syntax: whitespace, comments, variable naming
-  * Fundamental data types: numbers, strings, lists/tuples, sets, dictionaries
-  * Python functions and methods
-  * Getting help in Python
+# Python for R users
 
 
 
-#### 04-CodingBasics 2 - Working with data & extending Python
+## A. Getting started
 
-* Working with Python's built-in data types
-  * ​	Lists/Tuples: Creating, basic methods, slicing
-  * Sets
-  * Dictionaries
-* Python packages
-  * Installing: Conda & Pip
-  * Importing
-  * Side note: Conda environments
-* Numpy and Pandas
-  * Vectors
-  * Matrix
-  * Array
-  * Dataframe
-* Functions
-  * Arguments and returns
-  * Calling functions
+### 1. Fire up a new JupyterLab session 
+
+*We'll be coding Python using JupyterLab hosted on one of Duke's Virtual Containers.*
+
+* Navigate to https://vm-manage.oit.duke.edu/containers & log in
+* Find the entry for [Jupyter Containers](https://vm-manage.oit.duke.edu/containers/jupyter) and create your personal Jupyter environment.
+
+> This JuptyerLab container is yours for the remainder of the semester. (OIT will send an email asking whether you want to renew it before destroying it.) You can access it at any time, from any browser via the link above. The session will pick up right where you left off. The data on these containers are NOT backed up - though, I've never lost any data on these things. However, there is no "recycle bin", so if you delete something, it's gone for good.
 
 
 
-#### 05-DataExploration 1 - Working with Data
+### 2. Clone the `PythonForRUsers` Git Environment
 
-* Interacting with files & paths from Jupyter
-* Reading CSV data into a Pandas dataframe
-* Exploring a dataset: properties and strucutre
-* Best practices
+*I've put materials for this section on a separate GitHub repository. You can clone this repository directly into your JupyterLab container.* 
+
+* Start a new Terminal session from within JupyterLab
+
+  * If the Launcher is not already accessible via one of your tabs, click the :heavy_plus_sign: icon to open one. 
+  * From the Launcher, click the Terminal button to open a new terminal tab.
+
+* Enter the git clone command at the terminal window
+
+  ```bash
+  git clone https://github.com/ENV872/PythonForRUsers.git
+  ```
+
+  * You may be asked for your GitHub username and password...
+  * This should add a new folder to your container
 
 
 
-#### 06-DataExploration 2 - Working with Data
+### 3. Open a Jupyter Notebook and start coding
 
-- Data types in a dataframe
-- Formatting dates
-- Dealing with missing data
-- Basic visualization using Pandas
-  - Bar charts | Histograms  Freq. line graph | Box and whiskers | Scatterplot
-- Other plotting packages: Matplotlib/Seaborn, Plotly, Bokeh
+*In the PythonForRUsers folder are a set of Jupyter Notebooks - an analog to R's Rmd files. We'll start with `A-Basic-Python.ipynb`.*
+
+* Navigate into the `PythnonForRUsers` folder.
+* Double-click the `A-Basic-Python.ipynb` notebook to open it . 
+* Click the first code cell (shaded in gray) to activate it.
+* Click the "►" button to run the code in the code cell (or use <ctrl>-<enter> from your keyboard)
+* If you double click a text cell, it will open it up a raw markdown; just run the cell to return it to its formatted view.
+
+---
 
 
 
+## B. The lessons
+
+The specific lessons in notebooks include explanations. The first two notebooks provide a quick introduction to the Python language and its basic data structures. The remaining three notebooks mimic the lessons we did in R, allowing easy comparison of Python commands to their R counterparts in terms of data wrangling.  
+
+| Notebook                                | Rmd counterpart                       | Topics                      |
+| --------------------------------------- | ------------------------------------- | --------------------------- |
+| `01-Getting-Started`                    | *none*                                | Quick tour of JupyterLab    |
+| `02-ReproducibilityCoding-Basics.ipynb` | `02_Reproducibility_CodingBasics.Rmd` | Basics of Python...         |
+| `A-Basic-Python.ipynb`                  | *none*                                | Basics of Python...         |
+| `03-Data-Exploration.ipynb`             | `03_DataExploration.Rmd`              | Data Exploration            |
+| `03-Data-Exploration_II.ipynb`          | `03_DataExploration_Part2.Rmd`        | Exploration & Visualization |
+| `04-Data-Wrangling.ipynb`               | `04_Part1_DataWrangling.Rmd`          | Data Wrangling              |
+| `04-Data-Wrangling_II.ipynb`            | `04_Part1_DataWrangling.Rmd`          | More Data Wrangling         |
+| `B-Web-Services-APIs-Python.ipynb`      | *none*                                | Scraping data               |
+
+ 
