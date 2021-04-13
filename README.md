@@ -1,12 +1,4 @@
---
-Title: Python for R users
-Author: John Fay
-Date: Spring 2021
----
-
 # Python for R users
-
-
 
 ## A. Getting started
 
