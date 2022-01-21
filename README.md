@@ -20,7 +20,7 @@ This repository contains Python versions generally following the R lessons for E
 #### 04-CodingBasics 2 - Working with data & extending Python
 
 * Working with Python's built-in data types
-  * ​	Lists/Tuples: Creating, basic methods, slicing
+  * Lists/Tuples: Creating, basic methods, slicing
   * Sets
   * Dictionaries
 * Python packages
