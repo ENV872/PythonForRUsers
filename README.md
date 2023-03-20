@@ -1,6 +1,6 @@
 # Python for R users
 
-![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ENV872/PythonForRUsers/HEAD)
+![Binder](https://mybinder.org/badge_logo.svg)
 
 ## A. Getting started
 
