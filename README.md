@@ -1,13 +1,17 @@
 # Python for R users
 
+```markdown
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ENV872/PythonForRUsers/HEAD)
+```
+
 ## A. Getting started
 
 ### 1. Fire up a new JupyterLab session 
 
 *We'll be coding Python using JupyterLab hosted on one of Duke's Virtual Containers.*
 
-* Navigate to https://vm-manage.oit.duke.edu/containers & log in
-* Find the entry for [Jupyter Containers](https://vm-manage.oit.duke.edu/containers/jupyter) and create your personal Jupyter environment.
+* Navigate to https://cmgr.oit.duke.edu/containers & log in
+* Find the entry for [Jupyter Containers](https://cmgr.oit.duke.edu/containers/Jupyter) and create your personal Jupyter environment.
 
 > This JuptyerLab container is yours for the remainder of the semester. (OIT will send an email asking whether you want to renew it before destroying it.) You can access it at any time, from any browser via the link above. The session will pick up right where you left off. The data on these containers are NOT backed up - though, I've never lost any data on these things. However, there is no "recycle bin", so if you delete something, it's gone for good.
 
