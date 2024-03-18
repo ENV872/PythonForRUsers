@@ -39,7 +39,7 @@
 
 *In the PythonForRUsers folder are a set of Jupyter Notebooks - an analog to R's Rmd files. We'll start with `A-Basic-Python.ipynb`.*
 
-* Navigate into the `PythnonForRUsers` folder.
+* Navigate into the `PythonForRUsers` folder.
 * Double-click the `A-Basic-Python.ipynb` notebook to open it . 
 * Click the first code cell (shaded in gray) to activate it.
 * Click the "►" button to run the code in the code cell (or use <ctrl>-<enter> from your keyboard)
